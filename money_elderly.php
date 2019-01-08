@@ -2,16 +2,17 @@
 input[type='file']{
   padding-bottom: 5px;
 
+}
+}
 </style>
 <div class="" style="padding-left:10px;">
 
-<div style="color:black; padding-bottom:10px"<br />
+<div style="color:black; padding-bottom:10px"><br>
 
 <h4 style="text-align:center">บันทึกข้อมูลผู้สูงอายุ</h4>
 <h4>ข้อมูลทั่วไป : สถานภาพการับสวัสดิการภาครัฐ</h4><br>
 <form class="" action="index.html" method="post">
 <div class="row">
-
   <div class="col-6">
     <div class="custom-control custom-checkbox" style="margin-left:-25px">
 
@@ -21,7 +22,7 @@ input[type='file']{
 </div><br>
 <div class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input" id="customCheck2">
-  <label class="custom-control-label" for="customCheck2">ได้รับเบี้ยการสงเคราะห์เบี้ยความพิการ/label>
+  <label class="custom-control-label" for="customCheck2">ได้รับเบี้ยการสงเคราะห์เบี้ยความพิการ</label>
 </div>
 
 

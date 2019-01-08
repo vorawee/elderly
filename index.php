@@ -29,10 +29,10 @@
               <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"  style="background:white;padding:5px;border-radius:10px;">
                 <a <?php if($_REQUEST['page']=='home'){echo 'class="nav-link active"';} ?> class="nav-link" href="index.php?page=home">หน้าแรก</a>
                 <a <?php if($_REQUEST['page']=='register'){echo 'class="nav-link active"';} ?> class="nav-link" href="index.php?page=register">บันทึกข้อมูลทั่วไป</a>
-                <a <?php if($_REQUEST['page']=='endorser'){echo 'class="nav-link active"';} ?> class="nav-link" id="v-pills-messages-tab" href="index.php?page=endorser" role="tab" aria-selected="false">ลงทะเบียนเบี้ยยังชีพผู้สูงอายุ</a>
+                <a <?php if($_REQUEST['page']=='money_elderly'){echo 'class="nav-link active"';} ?> class="nav-link" id="v-pills-messages-tab" href="index.php?page=money_elderly" role="tab" aria-selected="false">ลงทะเบียนเบี้ยยังชีพผู้สูงอายุ</a>
                 <a <?php if($_REQUEST['page']=='activity'){echo 'class="nav-link active"';} ?> class="nav-link" id="v-pills-settings-tab"  href="index.php?page=activity" role="tab" aria-selected="false">ลงทะเบียนกิจกรรม</a>
-                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#" role="tab" aria-selected="false">ลงทะเบียนข้อมูลผู้พิการ</a>
-                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#" role="tab" aria-selected="false">ลงทะเบียนเงินเบี้ยความพิการ</a>
+                <a <?php if($_REQUEST['page']=='disabled'){echo 'class="nav-link active"';} ?> class="nav-link" id="v-pills-settings-tab" href="index.php?page=disabled" role="tab" aria-selected="false">ลงทะเบียนข้อมูลผู้พิการ</a>
+                <a <?php if($_REQUEST['page']=='money_disabled'){echo 'class="nav-link active"';} ?> class="nav-link" id="v-pills-settings-tab"  href="index.php?page=money_disabled" role="tab" aria-selected="false">ลงทะเบียนเงินเบี้ยความพิการ</a>
                 <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#" role="tab" aria-selected="false">ลงทะเบียนข้อมูลสุขภาพ</a>
                 <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#" role="tab" aria-selected="false">การประเมินความสามารถ</a>
               </div>
@@ -50,13 +50,18 @@
                     elseif($_REQUEST['page']=='register'){ // หน้าบันทึกข้อมูล
                             include 'register.php';
                     }
-                    elseif($_REQUEST['page']=='endorser'){ // หน้าบันทึกข้อมูลgเบี้ยยังชีพ
-                            include 'endorser.php';
+                    elseif($_REQUEST['page']=='money_elderly'){ // หน้าบันทึกข้อมูลgเบี้ยยังชีพ
+                            include 'money_elderly.php';
                     }
                     elseif($_REQUEST['page']=='activity'){ // หน้าบันทึกข้อมูลgเบี้ยยังชีพ
                             include 'activity.php';
                     }
-
+                    elseif($_REQUEST['page']=='disabled'){ // หน้าบันทึกข้อมูลgเบี้ยยังชีพ
+                            include 'disabled.php';
+                    }
+                    elseif($_REQUEST['page']=='money_disabled'){ // หน้าบันทึกข้อมูลgเบี้ยยังชีพ
+                            include 'money_disabled.php';
+                    }
 
                   }else {
                       header('Location:index.php?page=home');
