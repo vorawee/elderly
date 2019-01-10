@@ -33,8 +33,8 @@
                 <a <?php if($_REQUEST['page']=='activity'){echo 'class="nav-link active"';} ?> class="nav-link" id="v-pills-settings-tab"  href="index.php?page=activity" role="tab" aria-selected="false">ลงทะเบียนกิจกรรม</a>
                 <a <?php if($_REQUEST['page']=='disabled'){echo 'class="nav-link active"';} ?> class="nav-link" id="v-pills-settings-tab" href="index.php?page=disabled" role="tab" aria-selected="false">ลงทะเบียนข้อมูลผู้พิการ</a>
                 <a <?php if($_REQUEST['page']=='money_disabled'){echo 'class="nav-link active"';} ?> class="nav-link" id="v-pills-settings-tab"  href="index.php?page=money_disabled" role="tab" aria-selected="false">ลงทะเบียนเงินเบี้ยความพิการ</a>
-                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#" role="tab" aria-selected="false">ลงทะเบียนข้อมูลสุขภาพ</a>
-                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#" role="tab" aria-selected="false">การประเมินความสามารถ</a>
+                <a <?php if($_REQUEST['page']=='health_elderly'){echo 'class="nav-link active"';} ?>class="nav-link" id="v-pills-settings-tab"  href="index.php?page=health_elderly" role="tab" aria-selected="false">ลงทะเบียนข้อมูลสุขภาพ</a>
+                <a <?php if($_REQUEST['page']=='assessment_daily'){echo 'class="nav-link active"';} ?>class="nav-link" id="v-pills-settings-tab"  href="index.php?page=assessment_daily" role="tab" aria-selected="false">การประเมินความสามารถ</a>
               </div>
             </div>
             &nbsp;
@@ -61,6 +61,12 @@
                     }
                     elseif($_REQUEST['page']=='money_disabled'){ // หน้าบันทึกข้อมูลgเบี้ยยังชีพ
                             include 'money_disabled.php';
+                    }
+                    elseif($_REQUEST['page']=='health_elderly'){ // หน้าบันทึกข้อมูลgเบี้ยยังชีพ
+                            include 'health_elderly.php';
+                    }
+                    elseif($_REQUEST['page']=='assessment_daily'){ // หน้าบันทึกข้อมูลgเบี้ยยังชีพ
+                            include 'assessment_daily.php';
                     }
 
                   }else {

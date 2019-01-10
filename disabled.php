@@ -1,8 +1,8 @@
-<br /><h4 style="text-align:center">แบบบันทึกข้อมูลผู้พิการในชุมชน</h4>
+<br /><h4 style="text-align:center">แบบบันทึกข้อมูลผู้พิการ</h4>
 <div class="" style="padding-left:10px;">
 <h4>ข้อมูลผู้พิการ</h4>
 ประเภทความพิการ (ได้รับการวินิจฉัยจากแพทย์แล้ว)
-<hr width="800px">
+<br><br>
 <form class="" action="index.html" method="post">
 <div class="row">
   <div class="col-4">

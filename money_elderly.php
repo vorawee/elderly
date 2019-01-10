@@ -96,7 +96,7 @@ input[type='file']{
   </div>
 </div>
 <hr width="95%">
-<div class="custom-control custom-checkbox" style="padding:100px">
+<div class="custom-control custom-checkbox" style="padding:45px">
   <input type="checkbox" class="custom-control-input" id="customCheck5" required>
   <label class="custom-control-label" for="customCheck5">ข้าพเจ้าขอรับรองว่าข้าพเจ้าเป็นผู้มีคุณสมบัติครบถ้วน ไม่ได้เป็นผู้รับบำนาญ เบี้ยหวัด บำนาญพิเศษ บำเหน็จรายเดือน หรือสวัสดิการรายเดือนจากหน่วยงานของรัฐ รัฐวิสาหกิจ หรือองค์กรปกครองส่วนท้องถิ่น และขอรับรองว่าข้อความดังกล่าวข้างต้นเป็นความจริงทุกประการ</label>
 </div>
