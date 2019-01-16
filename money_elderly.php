@@ -44,7 +44,7 @@ input[type='file']{
   </div>
 <hr width="95%">
 </div><br>
-มีความประสงค์ขอรับเบี้ยยังชีพผู้สูงอายุ ประจำปี โดยวิธีดังต่อไปนี้ (เลือกมา 1 ข้อ)
+<b>มีความประสงค์ขอรับเบี้ยยังชีพผู้สูงอายุ ประจำปี โดยวิธีดังต่อไปนี้ (เลือกมา 1 ข้อ)</b>
 <div class="row">
   <div class="col-6"><br>
     <div class="custom-control custom-radio custom-control-inline">
@@ -69,7 +69,7 @@ input[type='file']{
 </div>
 
 <hr width="95%"><br />
-  <b>กรุณาแนบเอกสาร ดังนี้</b><br />
+  <b>กรุณาแนบเอกสาร ดังนี้</b><br /><br>
 <div class="row">
 
   <div class="col-9">
