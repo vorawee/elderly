@@ -1,7 +1,7 @@
 <br /><h4 style="text-align:center">บันทึกการประเมินความสามารถในการทำกิจวัตรประจำวัน</h4><br>
 <div class="" style="padding-left:40px;">
 <form class="" action="index.html" method="post">
-<b>1. รับประทานอาหารเมื่อเตรียมสำรับไว้ให้เรียบร้อยต่อหน้า (Feeding) (เลือกมา 1 ข้อ) </b><br>
+<b>Feeding 1. รับประทานอาหารเมื่อเตรียมสำรับไว้ให้เรียบร้อยต่อหน้า (เลือกมา 1 ข้อ) </b><br>
 <div style="padding-top:10px;margin-left:70px">
 <div class="custom-control custom-radio" >
 <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
@@ -17,7 +17,7 @@
 </div>
 </div><br>
 
-<b>2. ล้างหน้า, หวีผม, แปรงฟัน,โกนหนวดในระยะ 24-48 ชั่วโมงที่ผ่านมา (Grooming) (เลือกมา 1 ข้อ)</b><br>
+<b>2. Grooming ล้างหน้า, หวีผม, แปรงฟัน,โกนหนวดในระยะ 24-48 ชั่วโมงที่ผ่านมา (เลือกมา 1 ข้อ)</b><br>
 <div style="padding-top:10px;margin-left:70px">
 <div class="custom-control custom-radio" >
 <input type="radio" id="customRadioInline4" name="customRadioInline2" class="custom-control-input">
@@ -29,7 +29,7 @@
 </div>
 </div><br>
 
-<b>3. ลุกนั่งจากที่นอน หรือจากเตียงไปยังเก้าอี้ (Transfer) (เลือกมา 1 ข้อ)</b><br>
+<b>3. Transfer ลุกนั่งจากที่นอน หรือจากเตียงไปยังเก้าอี้ (เลือกมา 1 ข้อ)</b><br>
 <div style="padding-top:10px;margin-left:70px">
 <div class="custom-control custom-radio" >
 <input type="radio" id="customRadioInline6" name="customRadioInline3" class="custom-control-input">
@@ -50,7 +50,7 @@
 </div>
 </div><br>
 
-<b>4. การใช้ห้องสุขา (Toilet use) (เลือกมา 1 ข้อ)</b><br>
+<b>4. Toilet use การใช้ห้องสุขา (เลือกมา 1 ข้อ)</b><br>
 <div style="padding-top:10px;margin-left:70px">
 <div class="custom-control custom-radio" >
 <input type="radio" id="customRadioInline10" name="customRadioInline4" class="custom-control-input">
@@ -66,7 +66,7 @@
 </div>
 </div><br>
 
-<b>5. การเคลื่อนที่ภายในห้อง หรือบ้าน (Mobility) (เลือกมา 1 ข้อ)</b><br>
+<b>5. Mobility การเคลื่อนที่ภายในห้อง หรือบ้าน (เลือกมา 1 ข้อ)</b><br>
 <div style="padding-top:10px;margin-left:70px">
 <div class="custom-control custom-radio" >
 <input type="radio" id="customRadioInline13" name="customRadioInline5" class="custom-control-input">
@@ -86,7 +86,7 @@
 </div>
 </div><br>
 
-<b>6. การสวมใส่เสื้อผ้า (Dressing) (เลือกมา 1 ข้อ)</b><br>
+<b>6. Dressing การสวมใส่เสื้อผ้า (เลือกมา 1 ข้อ)</b><br>
 <div style="padding-top:10px;margin-left:70px">
 <div class="custom-control custom-radio" >
 <input type="radio" id="customRadioInline17" name="customRadioInline6" class="custom-control-input">
@@ -102,67 +102,63 @@
 </div>
 </div><br>
 
-<b>1. มีความประสงค์ขอรับเบี้ยยังชีพผู้สูงอายุ ประจำปี โดยวิธีดังต่อไปนี้ (เลือกมา 1 ข้อ)</b><br>
-<div style="padding-top:10px;margin-left:50px">
+<b>7. Stairs การขึ้นลงบันได 1 ชั้น (เลือกมา 1 ข้อ)</b><br>
+<div style="padding-top:10px;margin-left:70px">
 <div class="custom-control custom-radio" >
-<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-<label class="custom-control-label" for="customRadioInline1">รับเงินสดด้วยตัวเอง</label>
+<input type="radio" id="customRadioInline20" name="customRadioInline7" class="custom-control-input">
+<label class="custom-control-label" for="customRadioInline20">0 คะแนน ไม่สามารถทำได้</label>
 </div>
 <div class="custom-control custom-radio">
-<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-<label class="custom-control-label" for="customRadioInline2">โอนเข้าบัญชีเงินฝากธนาคารในนามผู้มีสิทธิ</label>
+<input type="radio" id="customRadioInline21" name="customRadioInline7" class="custom-control-input">
+<label class="custom-control-label" for="customRadioInline21">1 คะแนน ต้องการคนช่วย</label>
 </div>
 <div class="custom-control custom-radio">
-<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-<label class="custom-control-label" for="customRadioInline2">โอนเข้าบัญชีเงินฝากธนาคารในนามผู้มีสิทธิ</label>
+<input type="radio" id="customRadioInline22" name="customRadioInline7" class="custom-control-input">
+<label class="custom-control-label" for="customRadioInline22">2 คะแนน ขึ้นลงได้เอง (ถ้าต้องใช้เครื่องช่วยเดิน เช่น Walker จะต้องเอาขึ้นลงได้ด้วย)</label>
 </div>
 </div><br>
 
-<b>1. มีความประสงค์ขอรับเบี้ยยังชีพผู้สูงอายุ ประจำปี โดยวิธีดังต่อไปนี้ (เลือกมา 1 ข้อ)</b><br>
-<div style="padding-top:10px;margin-left:50px">
+<b>8. Bathing การอาบน้ำ (เลือกมา 1 ข้อ)</b><br>
+<div style="padding-top:10px;margin-left:70px">
 <div class="custom-control custom-radio" >
-<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-<label class="custom-control-label" for="customRadioInline1">รับเงินสดด้วยตัวเอง</label>
+<input type="radio" id="customRadioInline23" name="customRadioInline8" class="custom-control-input">
+<label class="custom-control-label" for="customRadioInline23">0 คะแนน ต้องมีคนช่วยหรือทำให้</label>
 </div>
 <div class="custom-control custom-radio">
-<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-<label class="custom-control-label" for="customRadioInline2">โอนเข้าบัญชีเงินฝากธนาคารในนามผู้มีสิทธิ</label>
-</div>
-<div class="custom-control custom-radio">
-<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-<label class="custom-control-label" for="customRadioInline2">โอนเข้าบัญชีเงินฝากธนาคารในนามผู้มีสิทธิ</label>
+<input type="radio" id="customRadioInline24" name="customRadioInline8" class="custom-control-input">
+<label class="custom-control-label" for="customRadioInline24">1 คะแนน อาบน้ำได้เอง</label>
 </div>
 </div><br>
 
-<b>1. มีความประสงค์ขอรับเบี้ยยังชีพผู้สูงอายุ ประจำปี โดยวิธีดังต่อไปนี้ (เลือกมา 1 ข้อ)</b><br>
-<div style="padding-top:10px;margin-left:50px">
+<b>9. Bowels การกลั้นการถ่ายอุจจาระ ใน 1 สัปดาห์ที่ผ่านมา (เลือกมา 1 ข้อ)</b><br>
+<div style="padding-top:10px;margin-left:70px">
 <div class="custom-control custom-radio" >
-<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-<label class="custom-control-label" for="customRadioInline1">รับเงินสดด้วยตัวเอง</label>
+<input type="radio" id="customRadioInline25" name="customRadioInline9" class="custom-control-input">
+<label class="custom-control-label" for="customRadioInline25">0 คะแนน กลั้นไม่ได้ หรือต้องการการสวนอุจจาระอยู่เสมอ</label>
 </div>
 <div class="custom-control custom-radio">
-<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-<label class="custom-control-label" for="customRadioInline2">โอนเข้าบัญชีเงินฝากธนาคารในนามผู้มีสิทธิ</label>
+<input type="radio" id="customRadioInline26" name="customRadioInline9" class="custom-control-input">
+<label class="custom-control-label" for="customRadioInline26">1 คะแนน กลั้นไม่ได้บางครั้ง (เป็นน้อยกว่า 1 ครั้งต่อสัปดาห์)</label>
 </div>
 <div class="custom-control custom-radio">
-<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-<label class="custom-control-label" for="customRadioInline2">โอนเข้าบัญชีเงินฝากธนาคารในนามผู้มีสิทธิ</label>
+<input type="radio" id="customRadioInline27" name="customRadioInline9" class="custom-control-input">
+<label class="custom-control-label" for="customRadioInline27">2 คะแนน กลั้นได้เป็นปกติ</label>
 </div>
 </div><br>
 
-<b>1. มีความประสงค์ขอรับเบี้ยยังชีพผู้สูงอายุ ประจำปี โดยวิธีดังต่อไปนี้ (เลือกมา 1 ข้อ)</b><br>
-<div style="padding-top:10px;margin-left:50px">
+<b>10.  Bladder การกลั้นปัสสาวะในระยะ 1 สัปดาห์ที่ผ่านมา (เลือกมา 1 ข้อ)</b><br>
+<div style="padding-top:10px;margin-left:70px">
 <div class="custom-control custom-radio" >
-<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-<label class="custom-control-label" for="customRadioInline1">รับเงินสดด้วยตัวเอง</label>
+<input type="radio" id="customRadioInline28" name="customRadioInline10" class="custom-control-input">
+<label class="custom-control-label" for="customRadioInline28">0 คะแนน กลั้นไม่ได้ หรือใส่สายสวนปัสสาวะ แต่ไม่สามารถดูแลเองได้</label>
 </div>
 <div class="custom-control custom-radio">
-<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-<label class="custom-control-label" for="customRadioInline2">โอนเข้าบัญชีเงินฝากธนาคารในนามผู้มีสิทธิ</label>
+<input type="radio" id="customRadioInline29" name="customRadioInline10" class="custom-control-input">
+<label class="custom-control-label" for="customRadioInline29">1 คะแนน กลั้นไม่ได้บางครั้ง (ไม่เกินวันละ 1 ครั้ง) </label>
 </div>
 <div class="custom-control custom-radio">
-<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-<label class="custom-control-label" for="customRadioInline2">โอนเข้าบัญชีเงินฝากธนาคารในนามผู้มีสิทธิ</label>
+<input type="radio" id="customRadioInline30" name="customRadioInline10" class="custom-control-input">
+<label class="custom-control-label" for="customRadioInline30">2 คะแนน กลั้นได้เป็นปกติ</label>
 </div>
 </div><br>
 
