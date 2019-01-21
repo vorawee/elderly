@@ -18,7 +18,7 @@
     </style>
     <title>Hello, world!</title>
   </head>
-  <body>
+  <body style="background:yellow">
     <div class="container">
         <div class="row">
           <div class="col" style="margin-left:32px;">
