@@ -24,7 +24,7 @@
 <br />
 เลขบัตรประชาชน&nbsp;
   <div class="form-group" style="display:inline-flex">
-      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  style="width:300px" required maxlength="13">
+      <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  style="width:300px" required max="13">
   </div>
   เกิดวันที่&nbsp;
     <div class="form-group" style="display:inline-flex">
@@ -213,8 +213,6 @@
                         </select>
   </div>
 </div><br /><br /><br />
-
-
                       <center>
                         <button type="submit" class="btn btn-primary">บันทึกข้อมูล</button>
                         <button type="button" class="btn btn-primary">แก้ไขข้อมูล</button>
